@@ -1,0 +1,400 @@
+/* Name Logo Font family */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Navigation Bar Font family */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+/* Inroduction Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+/* Overall font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection{
+    background-color: teal;
+}
+
+body{
+    background-color: #222;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* navigation Bar Start */
+.headerSection{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;    
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.namelogo{
+    margin: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+}
+.navul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+.navlist{
+    margin: 0px 15px 0px 15px;
+    list-style: none;
+}
+.navlist:hover{
+    transform: translateY(-5px);
+    transition: all 0.4s ;
+}
+.navlink{
+    text-decoration: none;
+    color: white;
+}
+.navlink:hover{
+    color:yellow;
+    transition: all 0.5s;
+}
+/* navigation Bar End */
+
+/* Introduction part start*/
+.intro{
+    margin-top: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.nameContact,.image-lg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    font-size: 20px;
+
+}
+.fullname{
+    letter-spacing: 1px;
+    
+}
+.nametext{
+    color: yellow;
+    font-size: 3.5em;
+    
+}
+.profession{
+    letter-spacing: 2px;
+    margin-top: 15px;
+    line-height: 15px;
+}
+.socialContact{
+    margin-top: 20px ;
+    font-size: 28px;
+}
+.iconLink{
+    text-decoration: none;
+}
+.fa-brands{
+    margin-right: 20px;
+    color: white;
+}
+.fa-brands:hover{
+    color: blue;
+    transition: all 0.5s;
+}
+.letschatDiv{
+    margin-top:3em ;
+}
+.chatText{
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: rgb(207, 62, 0);
+    text-decoration: none;
+}
+.satyamImg-lg,.satyamImg-sm{
+    height: 5%;
+    width: 40%;
+    border-radius: 20px;
+    transform: skew(-8deg);
+    box-shadow: 2px 2px 10px 5px rgba(255, 255, 255, 0.521);
+}
+.image-sm,.satyamImg-sm{
+    display: none;
+}
+/* Introduction part end*/
+
+/* Main Body Start */
+main{
+    margin: 2.5em 0;
+    padding: 2em 0;
+}
+/* About ,Description and Email End */
+.aboutSection{
+    margin-top: 2em;
+    padding: 4em 0;
+    color:white;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: space-evenly;
+    text-align: justify;
+    background-color: rgba(31, 29, 29, 0.8);
+}
+.about{
+    width: 50%;
+    margin: 0 6em;
+}
+.aboutText,.queryText{
+    font-size: 2em;
+    font-weight: bolder;
+    line-height: 2em;
+}
+.queryText{
+    font-size: 1.5em;
+}
+.detail{
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.query{
+    width: 50%;
+}
+
+.mail-link{
+    font-weight: normal;
+    font-size: 22px;
+}
+.DownloadResume{
+    padding:10px 15px;
+    background-color: rgb(207, 62, 0);
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+/* About ,Description and Email End */
+
+/* Skills and its Proficiency Start */
+.skill-rate{
+    color: white;
+    margin-top: 2em;
+}
+.skillText{
+    margin-top: 2em;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.skill-icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.skill-icon>div{
+    line-height: 2.5em;
+}
+.fa-cogs,.fa-code{
+    font-size: 35px;
+}
+.skill-title{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    
+}
+.Skill-Label{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+}
+.Framework,.Programing{
+    width: 45%;
+}
+.Framework{
+    margin-bottom: 2em;
+}
+.title,.label{
+    font-size: 25px;
+    float: left;
+    margin-bottom: 0.5em;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+.label{
+    float: right;
+    font-size: 16px;
+    font-weight: normal;
+}
+.progress{
+    border: none;
+    border-radius: 26px;
+    overflow: hidden;
+    width: 100%;
+}
+/* Skills and its Proficiency End */
+
+/* Main Body Start */
+
+
+/* Footer Start */
+footer{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+/* Footer End */
+/* Responsive Menu Start */
+@media screen and (max-width:790px){
+    .namelogo{
+        font-size: 28px;
+    }
+    .navul{
+        display: none;
+        font-size: 17px;
+    }
+    .nametext{
+        font-size: 2em;
+    }
+    .profession{
+        letter-spacing: 1px;
+        margin-top: 25px;
+        font-size: 15px;
+        line-height: 10px;
+    }
+    .socialContact{
+        margin-top: 30px;
+        font-size: 22px;
+    }
+    .fa-brands{
+        margin-right: 10px;
+    }
+    .letschatDiv{
+        margin-top:2.5em ;
+    }
+    .chatText{
+        color: white;
+        padding: 8px 10px;
+        border-radius: 5px;
+        background-color: rgb(207, 62, 0);
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .aboutText{
+        font-size: 1.5em;
+        font-weight: bolder;
+        line-height: 2em;
+    }
+    .query{
+        margin-top: 4em;
+        margin-right: 2em;
+        padding-right: 1em;
+    }
+    .queryText{
+        font-size: 1.2em;
+        word-break: keep-all;
+        line-height: 1em;
+    }
+    .detail,.mail-link{
+        font-weight: normal;
+        font-size: 15px;
+    }
+    .DownloadResume{
+        padding:8px 10px;
+        font-size: 16px;
+    }
+    
+   
+    
+}
+@media screen and (max-width:450px){
+    .navbar{
+        background-color: rgba(19, 148, 180, 0.402);
+    }
+    .namelogo{
+        font-size: 22px;
+    }
+    .navul{
+        display: none;
+    }
+    .nametext{
+        font-size: 1.5em;
+    }
+    .intro{
+        margin-top: 3em;
+        flex-direction: column;
+    }
+    .image-sm{
+        display: block;
+        margin-bottom: 2em;
+        width: 100%;
+    }
+    .nameContact{
+        width: 100%;
+    }
+    .satyamImg-lg{
+        display: none;
+    }
+    .satyamImg-sm{
+        display: flex;
+        margin: auto;
+    }
+    .letschatDiv{
+        margin-top:1.5em ;
+    }
+    .aboutSection{
+        flex-direction: column;
+    }
+    .about,.query{
+        margin: 0;
+        padding: 0 3em;
+        width: 100%;
+    }
+    .about{
+        margin-bottom: 2em;
+    }
+    .queryText{
+        line-height: 2.3em;
+    }
+    .mail-link{
+        font-size: 16px;
+    }
+    .DownloadResume{
+        padding:7px 8px;
+        font-size: 14px;
+    }
+   
+    
+}
+@media screen and (max-width:325px){
+    *{
+        word-break: break-all;
+    }
+}
+
+/* Responsive Menu End */
