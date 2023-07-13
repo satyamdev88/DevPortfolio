@@ -120,7 +120,7 @@ a{
     color: white;
 }
 .fa-brands:hover{
-    color: blue;
+    color: rgb(9, 246, 9);
     transition: all 0.5s;
 }
 .letschatDiv{
